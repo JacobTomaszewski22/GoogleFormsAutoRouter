@@ -1,4 +1,5 @@
-/* Created by Jacob Tomaszewski for Ottilie Tattoo Studio on 25/11/2023. A auto email router based on a google forms submission */
+/* Created by Jacob Tomaszewski for Ottilie Tattoo Studio on 25/11/2023. A auto email router based on a google forms submission 
+PERSONAL INFORMATION (emails) REMOVED!*/
 
 function FormSubmissionRoute(e){
   //Pulling the named values from the submit event
@@ -32,34 +33,34 @@ function FormSubmissionRoute(e){
   switch(client.artist)
   {
     case "Alizé":
-      recipiant_mail = "alizedubois18@gmail.com";
+      recipiant_mail = "";
       break;
     case "Diogo":
-      recipiant_mail = "dgcruk@gmail.com";
+      recipiant_mail = "";
       break;
     case "Riccardo":
-      recipiant_mail = "imageless.studio@gmail.com";
+      recipiant_mail = "";
       break;
     case "Izzy":
-      recipiant_mail = "isabelhaslam@aol.com";
+      recipiant_mail = "";
       break;
     case "JP":
-      recipiant_mail = "jean-pierre.lupdag@hotmail.co.uk";
+      recipiant_mail = "";
       break;
     case "Vitor":
-      recipiant_mail = "vitorarkiro@gmail.com";
+      recipiant_mail = "";
       break;
     case "Liam":
-      recipiant_mail = "liamdavidtattoo@gmail.com";
+      recipiant_mail = "";
       break;
     case "Mónica":
-      recipiant_mail = "monica@thechaoticstudio.com";
+      recipiant_mail = "";
       break;
     case "Suki":
-      recipiant_mail = "Sukilunetattoo@outlook.com";
+      recipiant_mail = "";
       break;
     case "Moon":
-      recipiant_mail = "moonfumes.tatus@gmail.com";
+      recipiant_mail = "";
       break;
     default:
       //non-resident artist, therefore there is no email registered with them
